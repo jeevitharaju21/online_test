@@ -8,10 +8,6 @@ public class Student extends HttpServlet
 	String SeatNum,Name;
 	String ans1,ans2,ans3,ans4,ans5;
         int a1=0,a2=0,a3=0,a4=0,a5=0;
-	
-	Connection connect=null;
-	Statement stmt=null; 
-	ResultSet rs=null;
 public void doPost (HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException             
 {
 
@@ -54,8 +50,7 @@ out.println("</head>");
 out.println("<body bgcolor=pink>");
 out.println("<center>");
 out.println("<br><br>");
-out.println("<h1>Thanks</h1>\n");	
-out.println("</table>");	
+out.println("<h1>Thanks</h1>\n");		
 out.println("</center>");	
 out.println("</body></html>");
 }
